@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gris3"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/IDNota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IDnota"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/tituloNota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titulo de la nota"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textoNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido de la nota"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        android:padding="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/fechaNota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/UserNota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
